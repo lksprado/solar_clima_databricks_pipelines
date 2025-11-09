@@ -2,7 +2,7 @@ import dlt
 from pyspark.sql.functions import col
 
 @dlt.table(
-    name="energia_clima_gld",
+    name="gold.energia_clima_gld",
     comment="Tabela Gold com join entre consumo diário e clima"
 )
 def create_gold_table():
